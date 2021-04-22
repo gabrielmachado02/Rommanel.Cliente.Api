@@ -1,6 +1,7 @@
 ﻿using FluentValidation.Results;
 using MediatR;
 using NetDevPack.Messaging;
+using Rommanel.Cliente.Entities.Constants;
 using Rommanel.Cliente.Entities.Core.Events;
 using Rommanel.Cliente.Entities.Entities;
 using Rommanel.Cliente.Infraestructure.Repository.Interfaces;
@@ -40,6 +41,15 @@ namespace Rommanel.Cliente.Application.Commands
                 {
                     AddError("CpfCnpj ja cadastrado");
                     return ValidationResult;
+                }
+
+                if (message.TipoPessoa ==ClienteConstants.PessoaJuridica){
+
+                    if (message.InscricaoEstadual == null)
+                    {
+                        AddError("Inscricao estadual obrigatória");
+                        return ValidationResult;
+                    }
                 }
 
                 var cliente = new Clientes(Guid.NewGuid(),message.Nome, message.CpfCnpj,message.TipoPessoa,message.InscricaoEstadual, message.DataNascimento,
