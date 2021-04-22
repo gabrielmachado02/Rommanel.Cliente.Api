@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.Api", "Rommanel.Cliente.Api\Rommanel.Cliente.Api.csproj", "{FCB2DA75-2AAD-4B4A-889D-DC82555F643C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rommanel.Cliente.Api", "Rommanel.Cliente.Api\Rommanel.Cliente.Api.csproj", "{FCB2DA75-2AAD-4B4A-889D-DC82555F643C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.Entities", "Rommanel.Cliente.Entities\Rommanel.Cliente.Entities.csproj", "{556CE302-920F-4E2B-A8E3-6B8696886638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rommanel.Cliente.Entities", "Rommanel.Cliente.Entities\Rommanel.Cliente.Entities.csproj", "{556CE302-920F-4E2B-A8E3-6B8696886638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.Application", "Rommanel.Cliente.Application\Rommanel.Cliente.Application.csproj", "{5E0EEA94-5AA3-4404-B50A-634636D3646F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rommanel.Cliente.Application", "Rommanel.Cliente.Application\Rommanel.Cliente.Application.csproj", "{5E0EEA94-5AA3-4404-B50A-634636D3646F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.Infraestructure", "Rommanel.Cliente.Infraestructure\Rommanel.Cliente.Infraestructure.csproj", "{67BAA93D-AFC4-4FF9-B189-4AF81EEEC954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rommanel.Cliente.Infraestructure", "Rommanel.Cliente.Infraestructure\Rommanel.Cliente.Infraestructure.csproj", "{67BAA93D-AFC4-4FF9-B189-4AF81EEEC954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Clientes.Ioc", "Rommanel.Cliente.Ioc\Rommanel.Clientes.Ioc.csproj", "{F662B813-92F2-4A7A-A038-D19CBA07B9F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rommanel.Clientes.Ioc", "Rommanel.Cliente.Ioc\Rommanel.Clientes.Ioc.csproj", "{F662B813-92F2-4A7A-A038-D19CBA07B9F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDE858AF-0E5C-481A-8CA7-EBC378ECA451}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
