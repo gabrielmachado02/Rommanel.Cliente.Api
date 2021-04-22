@@ -1,0 +1,11 @@
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\bin\Debug\net5.0\Rommanel.Clientes.Entities.deps.json
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\bin\Debug\net5.0\Rommanel.Clientes.Entities.dll
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\bin\Debug\net5.0\ref\Rommanel.Clientes.Entities.dll
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\bin\Debug\net5.0\Rommanel.Clientes.Entities.pdb
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\obj\Debug\net5.0\Rommanel.Clientes.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\obj\Debug\net5.0\Rommanel.Clientes.Entities.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\obj\Debug\net5.0\Rommanel.Clientes.Entities.AssemblyInfo.cs
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\obj\Debug\net5.0\Rommanel.Clientes.Entities.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\obj\Debug\net5.0\Rommanel.Clientes.Entities.dll
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\obj\Debug\net5.0\ref\Rommanel.Clientes.Entities.dll
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Entities\obj\Debug\net5.0\Rommanel.Clientes.Entities.pdb

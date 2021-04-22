@@ -1,0 +1,5 @@
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Infraestructure\obj\Debug\net5.0\Rommanel.Clientes.Infraestructure.csprojAssemblyReference.cache
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Infraestructure\obj\Debug\net5.0\Rommanel.Clientes.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Infraestructure\obj\Debug\net5.0\Rommanel.Clientes.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Infraestructure\obj\Debug\net5.0\Rommanel.Clientes.Infraestructure.AssemblyInfo.cs
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Infraestructure\obj\Debug\net5.0\Rommanel.Clientes.Infraestructure.csproj.CoreCompileInputs.cache

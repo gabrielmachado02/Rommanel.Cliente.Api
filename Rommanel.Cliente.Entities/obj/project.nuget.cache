@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VcpWwE7tTeqZEf1T7Z31n0CqzW3JKbnGaHCmeBtIb/bTJk/t9iUInwr7KTbleRlYyowhfNbF90VUCiayEdj5UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\Rommanel.Cliente.Api\\Rommanel.Cliente.Entities\\Rommanel.Cliente.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\fluentvalidation\\10.0.0\\fluentvalidation.10.0.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\netdevpack\\1.1.1\\netdevpack.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

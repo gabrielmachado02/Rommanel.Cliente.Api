@@ -1,0 +1,11 @@
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\bin\Debug\net5.0\Rommanel.Clientes.Application.deps.json
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\bin\Debug\net5.0\Rommanel.Clientes.Application.dll
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\bin\Debug\net5.0\ref\Rommanel.Clientes.Application.dll
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\bin\Debug\net5.0\Rommanel.Clientes.Application.pdb
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\obj\Debug\net5.0\Rommanel.Clientes.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\obj\Debug\net5.0\Rommanel.Clientes.Application.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\obj\Debug\net5.0\Rommanel.Clientes.Application.AssemblyInfo.cs
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\obj\Debug\net5.0\Rommanel.Clientes.Application.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\obj\Debug\net5.0\Rommanel.Clientes.Application.dll
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\obj\Debug\net5.0\ref\Rommanel.Clientes.Application.dll
+C:\Users\gabri\source\repos\Rommanel.Cliente.Api\Rommanel.Cliente.Application\obj\Debug\net5.0\Rommanel.Clientes.Application.pdb

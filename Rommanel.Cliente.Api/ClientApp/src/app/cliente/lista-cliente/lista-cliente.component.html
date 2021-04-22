@@ -1,0 +1,24 @@
+<button class="btn btn-danger" style="width:100px" (click)="addCliente()"> Cadastrar Cliente</button>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Id</th>
+      <th>Nome</th>
+      <th>CpfCnpj</th>
+      <th>Tipo Pessoa</th>
+      <th>Telefone</th>
+      <th>Logradouro</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let cliente  of clientes">
+      <td>{{cliente.nome}}</td>
+      <td>{{cliente.cpfCnpj}}</td>
+      <td>{{cliente.tipoPessoa}}</td>
+      <td>{{cliente.telefone}}</td>
+      <td>{{cliente.logradouro}}</td>
+      <td><button class="btn btn-danger" (click)="deleteCliente(this.cliente)"> Delete</button>
+        <button class="btn btn-info" (click)="ClienteDetalhe(cliente)" style="margin-left: 20px;"> Edit</button></td>
+    </tr>
+    </tbody>
+  </table>

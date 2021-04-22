@@ -1,0 +1,247 @@
+<form [formGroup]="addForm">
+
+  <div style="width: 400px; margin: auto;">
+
+    <div class="submit-form">
+      <div *ngIf="!submitted">
+
+        <h1>   </h1>
+        <div class="form-group">
+          <label for="title">Nome</label>
+          <input type="text"
+                 class="form-control"
+                 id="nome"
+                 formControlName="nome"
+                 required
+                 [(ngModel)]="cliente.nome"
+                 name="title" />
+          <div *ngIf="addForm.controls['nome'].invalid && (addForm.controls['nome'].dirty || addForm.controls['nome'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['nome'].errors.required">
+              Nome é Requerido
+            </div>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <label for="description">Email</label>
+          <input type="email" class="form-control"
+                 id="email"
+                 required
+                 formControlName="email"
+                 [(ngModel)]="cliente.email"
+                 name="email" />
+
+          <div *ngIf="addForm.controls['email'].invalid && (addForm.controls['email'].dirty || addForm.controls['email'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['email'].errors.required">
+              email é Requerido
+            </div>
+            <div *ngIf="addForm.controls['email'].errors.email">
+              email é Requerido
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="description">Telefone</label>
+          <input class="form-control"
+                 id="telefone"
+                 formControlName="telefone"
+                 required
+                 [(ngModel)]="cliente.telefone"
+                 name="description" />
+
+          <div *ngIf="addForm.controls['telefone'].invalid && (addForm.controls['telefone'].dirty || addForm.controls['telefone'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['telefone'].errors.required">
+              telefone é Requerido
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="form-group">
+          <label for="description">CpfCnpj</label>
+          <input class="form-control"
+                 id="cpfCnpj"
+                 formControlName="cpfCnpj"
+                 required
+                 [(ngModel)]="cliente.cpfCnpj"
+                 name="description" />
+
+          <div *ngIf="addForm.controls['cpfCnpj'].invalid && (addForm.controls['cpfCnpj'].dirty || addForm.controls['cpfCnpj'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['cpfCnpj'].errors.required">
+              telefone é Requerido
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="description">Tipo Pessoa</label>
+          <input class="form-control"
+                 id="tipoPessoa"
+                 formControlName="tipoPessoa"
+                 required
+                 [(ngModel)]="cliente.tipoPessoa"
+                 name="description" />
+
+
+          <div *ngIf="addForm.controls['tipoPessoa'].invalid && (addForm.controls['tipoPessoa'].dirty || addForm.controls['tipoPessoa'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['tipoPessoa'].errors.required">
+              Tipo pessoa é Requerido
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="description">Data de Nascimento</label>
+          <input type="date" class="form-control"
+                 id="dataNascimento"
+                 formControlName="dataNascimento"
+                 required
+                 [(ngModel)]="cliente.dataNascimento"
+                 name="description" />
+
+          <div *ngIf="addForm.controls['dataNascimento'].invalid && (addForm.controls['dataNascimento'].dirty || addForm.controls['dataNascimento'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['dataNascimento'].errors.required">
+              data Nascimento é Requerido
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="description">Inscricao Estadual</label>
+          <input class="form-control"
+                 id="inscricaoEstadual"
+                 formControlName="inscricaoEstadual"
+                 required
+                 [(ngModel)]="cliente.inscricaoEstadual"
+                 name="description" />
+
+
+
+        </div>
+
+
+
+
+        <div class="form-group">
+          <label for="description">Logradouro</label>
+          <input class="form-control"
+                 id="logradouro"
+                 required
+                 [(ngModel)]="cliente.endereco.logradouro"
+                 formControlName="logradouro"
+                 name="description" />
+
+
+          <div *ngIf="addForm.controls['logradouro'].invalid && (addForm.controls['logradouro'].dirty || addForm.controls['logradouro'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['logradouro'].errors.required">
+              Logradouro é Requerido
+            </div>
+
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Cidade</label>
+          <input class="form-control"
+                 id="cidade"
+                 formControlName="cidade"
+                 required
+                 [(ngModel)]="cliente.endereco.cidade"
+                 name="description" />
+
+          <div *ngIf="addForm.controls['cidade'].invalid && (addForm.controls['cidade'].dirty || addForm.controls['cidade'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['cidade'].errors.required">
+              Logradouro é Requerido
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <label for="description">Estado</label>
+          <input class="form-control"
+                 id="estado"
+                 required
+                 formControlName="estado"
+                 [(ngModel)]="cliente.endereco.estado"
+                 name="description" />
+
+          <div *ngIf="addForm.controls['estado'].invalid && (addForm.controls['estado'].dirty || addForm.controls['estado'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['estado'].errors.required">
+              Estado é Requerido
+            </div>
+
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description">cep</label>
+          <input class="form-control"
+                 id="cep"
+                 formControlName="cep"
+                 required
+                 [(ngModel)]="cliente.endereco.cep"
+                 name="description" />
+
+          <div *ngIf="addForm.controls['cep'].invalid && (addForm.controls['cep'].dirty || addForm.controls['cep'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['cep'].errors.required">
+              Estado é Requerido
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="description">bairro</label>
+          <input class="form-control"
+                 id="cep"
+                 formControlName="bairro"
+                 required
+                 [(ngModel)]="cliente.endereco.bairro"
+                 name="description" />
+
+
+          <div *ngIf="addForm.controls['bairro'].invalid && (addForm.controls['bairro'].dirty || addForm.controls['bairro'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['bairro'].errors.required">
+              bairro é Requerido
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="description">numero</label>
+          <input class="form-control"
+                 id="numero"
+                 required
+                 formControlName="numero"
+                 [(ngModel)]="cliente.endereco.numero"
+                 name="description" />
+
+          <div *ngIf="addForm.controls['numero'].invalid && (addForm.controls['numero'].dirty || addForm.controls['numero'].touched)" class="alert alert-danger">
+            <div *ngIf="addForm.controls['numero'].errors.required">
+              numero é Requerido
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <button (click)="Save(this.cliente)" class="btn btn-success" [disabled]="addForm.pristine || addForm.invalid">Submit</button>
+      </div>
+
+    </div>
+  </div>
+
+
+</form>

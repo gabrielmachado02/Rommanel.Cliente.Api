@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.Api", "Rommanel.Cliente.Api\Rommanel.Cliente.Api.csproj", "{FCB2DA75-2AAD-4B4A-889D-DC82555F643C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.Entities", "Rommanel.Cliente.Entities\Rommanel.Cliente.Entities.csproj", "{556CE302-920F-4E2B-A8E3-6B8696886638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.Application", "Rommanel.Cliente.Application\Rommanel.Cliente.Application.csproj", "{5E0EEA94-5AA3-4404-B50A-634636D3646F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.Infraestructure", "Rommanel.Cliente.Infraestructure\Rommanel.Cliente.Infraestructure.csproj", "{67BAA93D-AFC4-4FF9-B189-4AF81EEEC954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Clientes.Ioc", "Rommanel.Cliente.Ioc\Rommanel.Clientes.Ioc.csproj", "{F662B813-92F2-4A7A-A038-D19CBA07B9F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCB2DA75-2AAD-4B4A-889D-DC82555F643C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB2DA75-2AAD-4B4A-889D-DC82555F643C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB2DA75-2AAD-4B4A-889D-DC82555F643C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB2DA75-2AAD-4B4A-889D-DC82555F643C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556CE302-920F-4E2B-A8E3-6B8696886638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556CE302-920F-4E2B-A8E3-6B8696886638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556CE302-920F-4E2B-A8E3-6B8696886638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556CE302-920F-4E2B-A8E3-6B8696886638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0EEA94-5AA3-4404-B50A-634636D3646F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0EEA94-5AA3-4404-B50A-634636D3646F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0EEA94-5AA3-4404-B50A-634636D3646F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0EEA94-5AA3-4404-B50A-634636D3646F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BAA93D-AFC4-4FF9-B189-4AF81EEEC954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BAA93D-AFC4-4FF9-B189-4AF81EEEC954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BAA93D-AFC4-4FF9-B189-4AF81EEEC954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BAA93D-AFC4-4FF9-B189-4AF81EEEC954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F662B813-92F2-4A7A-A038-D19CBA07B9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F662B813-92F2-4A7A-A038-D19CBA07B9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F662B813-92F2-4A7A-A038-D19CBA07B9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F662B813-92F2-4A7A-A038-D19CBA07B9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FFF1404-5013-40ED-9054-13DC48D15394}
+	EndGlobalSection
+EndGlobal
